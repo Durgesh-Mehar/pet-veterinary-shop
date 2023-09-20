@@ -1,0 +1,76 @@
+/* Styles for the Home Page component */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  .header {
+    flex: 1;
+    background-image: url('dog-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 80px 0;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .main-content {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .about-us,
+  .services {
+    margin-bottom: 40px;
+  }
+  
+  .about-us h2,
+  .services h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services ul li {
+    margin: 10px 0;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
