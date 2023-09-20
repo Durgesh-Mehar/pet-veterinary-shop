@@ -49,8 +49,7 @@ function Login() {
         //localStorage.setItem("xyz", replcedmail);
 
         localStorage.setItem("token", data.idToken);
-        history("/dashboard/pets");
-        // history('/dashboard/services')
+        history("/");
       })
       .catch((err) => {
         alert(err.message);

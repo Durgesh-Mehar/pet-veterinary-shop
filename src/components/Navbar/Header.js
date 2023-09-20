@@ -9,6 +9,7 @@ function Header() {
   const isLogged = authCtx.isLoggedIn;
 
   const logoutHandler = () => {
+    alert("Do you want to Logout")
     authCtx.Logout();
     history("/login");
   };
